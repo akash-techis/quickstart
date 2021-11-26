@@ -14,7 +14,7 @@ export default function Header() {
     setCheckUser(false);
     dispatch(push("/signin"));
   };
-  
+
   useEffect(() => {
     if (key != null) {
       setCheckUser(true);

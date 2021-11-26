@@ -10,9 +10,7 @@ body {
   width: 100%;
 }
 
-/*************************
-        Header  
-*************************/
+/* Header  */
 .header-head {
   width: 100%;
   background-color: #c2e8c230;
@@ -72,7 +70,6 @@ header .header-links .sign-in-link a {
 header .header-links .sign-in-link .logout {
   color: rgb(255, 254, 254);
   cursor: pointer;
-  padding: 14px;
 }
 
 header .header-links .img img {
@@ -81,9 +78,7 @@ header .header-links .img img {
   padding: 0;
 }
 
-/******************************
-          header Response 
-********************************/
+/* For responsiveness */
 
 @media screen and (max-width: 900px) {
   header .header-links .sign-in-link {
@@ -129,8 +124,6 @@ header .header-links .img img {
   margin-bottom: 2%;
   height: 100%;
 }
-
-/*   contents  */
 
 .content {
   font-family: Roboto;
@@ -332,8 +325,6 @@ ul.items li .info .info-bottom .number .minus {
   }
 }
 
-/******  Footer */ 
-
 footer {
   position: sticky;
   bottom: 0;
@@ -343,7 +334,9 @@ footer {
   padding: 10px 0px;
   background-color: #495050;
   z-index: 2;
+  /* border: 1px solid #939393; */
   width: 100%;
+  /* font-weight: bold; */
   color: #ffffff;
 }
 
@@ -359,10 +352,6 @@ footer button {
   cursor: pointer;
 }
 
-/*********************
-      Popup page
- ********************/      
-
 .popup {
   position: fixed;
   background-color: #00000042;
@@ -375,6 +364,7 @@ footer button {
 
 .popup .popup-inner {
   position: relative;
+  /* margin: 5px; */
   padding: 5px;
   background-color: #495050;
 }
@@ -528,11 +518,6 @@ footer button {
   }
 }
 
-
-/***************************
-          Order details 
-****************************/          
-
 .details {
   width: 100%;
   margin: 50px 0;
@@ -679,6 +664,10 @@ footer button {
   .box p {
     text-align: center;
   }
+
+  /* .message p {
+    font-size: 12px;
+  } */
   
 }
 
